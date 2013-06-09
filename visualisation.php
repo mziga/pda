@@ -1723,6 +1723,7 @@ if($output!=""){
 	if($type_of_viz=="gv_viz"){
 echo '
 <script type="text/javascript">
+	// Template from GitHub was used and modified for appropriate needs: http://bl.ocks.org/mbostock/4062045/
     var width = 800;
     var height = 600;
 	centerNodeSize = 50;
@@ -2351,7 +2352,7 @@ echo '
 	}else if($type_of_viz=="cmv_viz"){
 	echo '
 <script type="text/javascript">
-
+	// Template from GitHub was used and modified for appropriate needs: http://bost.ocks.org/mike/miserables/
 	var margin = {top: 80, right: 0, bottom: 10, left: 80};
 	var width = 600;
 	var height = 600;
