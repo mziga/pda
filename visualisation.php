@@ -119,12 +119,9 @@ rect.hidden {
 </style>
 
 	<!-- d3 plugin -->
-	<script src="js/d3.v3.min.js"></script>
-<script type="text/javascript" src="include/rgbcolor.js"></script> 
-<script type="text/javascript" src="include/canvg.js"></script> 
-<script type='text/javascript' src='include/jquery.min.js'></script>
- <script src="js/jquery-1.9.1.js"></script>
-<script src="js/f1.10.2/jquery-ui.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui.js"></script>
 <? if(!isset($_GET[gen_pdf])){
 
 			echo '<div>
@@ -2155,7 +2152,7 @@ echo '
 		.attr("font-family", "Arial, Helvetica, sans-serif")
 		.style("font", "normal 12px Arial")
 		.attr("fill", "Black")
-		.text(" Smaler node -> Less students");
+		.text(" Smaller node -> Less students");
 	
 	
 	legend.append("text")
